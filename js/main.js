@@ -5,5 +5,7 @@ $(document).ready(function(){
         '<p id="card-description">Brief description about the...</p>' +
         '</div>');
         $("#click-the").remove();
+        $("#lp-heading").hide();
+        $("#illustration-image").hide();
     });
 });
