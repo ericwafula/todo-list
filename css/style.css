@@ -86,12 +86,34 @@ body{
     color: white;
     padding-left: 20px;
     padding-bottom: 30px;
+    cursor: pointer;
 }
 
 /* card title */
 #card-title{
     font-weight: bold;
     font-size: 48px;
+}
+
+.card-head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 230px;
+    position: relative;
+}
+
+/* icon */
+.material-icons-outlined{
+    border: solid white 3px;
+    font-size: 48px;
+    border-radius: 50%;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    background-color: #7061FB;
+    display: none;
 }
 
 /* card body */
