@@ -10,8 +10,8 @@ $(document).ready(function(){
             '<p id="card-description">Brief description about the...</p>' +
             '</div>');
         $("#click-the").hide();
-        $("#lp-heading").hide();
-        $("#illustration-image").hide();
+        $("#lp-heading").hide(500);
+        // $("#illustration-image").hide();
 
         // card
         // mouse over
@@ -27,6 +27,8 @@ $(document).ready(function(){
         $(".cards").find(".material-icons-outlined").first().click(function(){
             $(this).parents(".cards").remove();
         });
+
+
     });
 
     
