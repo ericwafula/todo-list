@@ -78,4 +78,24 @@ body{
     /* height: auto; */
     border-radius: 20px;
     background-color: #7061FB;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+/* card title */
+#card-title{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/* card body */
+#card-description{
+    font-size: 24px;
+}
+
+/* click the add to do text */
+#click-the{
+    font-size: 32px;
+    color: #7061FB;
 }
