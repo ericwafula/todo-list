@@ -9,7 +9,7 @@ $(document).ready(function(){
             '</div>' +
             '<p id="card-description">Brief description about the...</p>' +
             '</div>');
-        $("#click-the").remove();
+        $("#click-the").hide();
         $("#lp-heading").hide();
         $("#illustration-image").hide();
 
